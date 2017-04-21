@@ -21,6 +21,13 @@
     <span>jquery.jqprint-0.3.js——</span>
     <a href="https://www.oschina.net/code/snippet_1039735_34103">开源中国社区</a>
   </li>
+  
+  <li>
+    <span>表单验证:</span>
+    <span>jquery.validate.js——</span>
+    <a href="https://jqueryvalidation.org/">官网</a>
+    <a href="http://www.runoob.com/jquery/jquery-plugin-validate.html">菜鸟教程</a>
+  </li>
 </ul>
 
 # UI框架
