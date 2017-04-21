@@ -15,6 +15,12 @@
     <span>grid.js——</span>
     <a href="http://js-grid.com/">grid.js官网</a>
   </li>
+  
+  <li>
+    <span>打印插件:</span>
+    <span>jquery.jqprint-0.3.js——</span>
+    <a href="https://www.oschina.net/code/snippet_1039735_34103">开源中国社区</a>
+  </li>
 </ul>
 
 # UI框架
