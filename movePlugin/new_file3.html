@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="new_file.css"/>
+		<script type="text/javascript" src="jquery-2.1.0.js" ></script>
+		
+
+	</head>
+	<body>
+    <div class="window noselect">
+        <div class="pew">
+            Header
+        </div>
+        <div class="container">
+            The Cords
+        </div>
+    </div>
+	    <script>
+    	    var clicked = "Nope.";
+            //当前鼠标坐标
+            var mouse_x = "0";
+            var mouse_y = "0";
+            //拖动节点坐标
+            var offset_x = "0";
+            var offset_y = "0";
+            //鼠标移动了的位置
+            var dif_x = mouse_x - offset_x;
+            var dif_y = mouse_y - offset_y;
+
+            $(".window").mousemove(function (event) {
+                mouse_x= event.pageX;
+                mouse_y= event.pageY;
+                offset_x = $(this).offset().left;
+                offset_y = $(this).offset().top;
+                if (clicked == "Nope.") {
+                    dif_x = mouse_x - offset_x;
+                    dif_y = mouse_y - offset_y;
+                }
+
+                var new_x = event.pageX - dif_x - $(this).css("marginLeft").replace('px', '');
+                var new_y = event.pageY - dif_y - $(this).css("marginTop").replace('px', '');
+                $(this).css({ top: new_y, left: new_x });
+
+                 /*   $(".container").html("Mouse Cords: " + mouse_x + " , " +  mouse_y + "<br />" + "Window Cords:" + offset_x + " , " + offset_y + "<br />Draggin'?: " + clicked + "<br />Difference: " + dif_x + " , " + dif_y + "");*/
+            });
+
+            $(".pew").mousedown(function (event) {
+                clicked = "Yeah.";
+            });
+
+            $("html").mouseup(function (event) {
+                clicked = "Nope.";
+            });
+	    </script>
+	</body>
+</html>
