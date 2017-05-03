@@ -38,3 +38,12 @@
     <a href="http://layer.layui.com/">layui官网</a>
   </li>
 </ul>
+
+# 性能插件库
+<ul>
+  <li>
+    <span>basket.js</span>
+    <span>Local Storage 缓存应用脚本的库</span>
+    <a href="https://addyosmani.com/basket.js/">文档</a>
+  </li>
+</ul>
