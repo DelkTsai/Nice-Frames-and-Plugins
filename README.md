@@ -28,6 +28,11 @@
     <a href="https://jqueryvalidation.org/">官网</a>
     <a href="http://www.runoob.com/jquery/jquery-plugin-validate.html">菜鸟教程</a>
   </li>
+  
+  <li>
+    <span>图片上传:</span>
+    <a href="https://segmentfault.com/a/1190000004924160">HTML5上传图片文件</a>
+  </li>
 </ul>
 
 # UI框架
