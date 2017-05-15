@@ -33,6 +33,11 @@
     <span>图片上传:</span>
     <a href="https://segmentfault.com/a/1190000004924160">HTML5上传图片文件</a>
   </li>
+  
+   <li>
+    <span>文件上传:</span>
+    <a href="http://www.cnblogs.com/kissdodog/archive/2012/12/15/2819025.html">文件上传</a>
+  </li>
 </ul>
 
 # UI框架
