@@ -36,8 +36,14 @@
   
    <li>
     <span>文件上传:</span>
-    <a href="http://www.cnblogs.com/kissdodog/archive/2012/12/15/2819025.html">文件上传</a>
+    <a href="http://www.cnblogs.com/kissdodog/archive/2012/12/15/2819025.html">文件上传文章</a>
   </li>
+  
+   <li>
+    <span>文件上传插件:</span>
+    <a href="http://www.dropzonejs.com/#">dropzone</a>
+  </li>
+
 </ul>
 
 # UI框架
