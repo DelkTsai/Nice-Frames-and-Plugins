@@ -67,4 +67,14 @@
     <span>Local Storage 缓存应用脚本的库</span>
     <a href="https://addyosmani.com/basket.js/">文档</a>
   </li>
+  <li>
+    <span>echo.js</span>
+    <span>图片懒加载</span>
+    <a href="https://my.oschina.net/u/3531365/blog/1486784?ref=myread">前端性能优化</a>
+  </li>
+  <li>
+    <span>jquery-lazyload.js</span>
+    <span>图片懒加载</span>
+    <a href="https://my.oschina.net/u/3531365/blog/1486784?ref=myread">前端性能优化</a>
+  </li>
 </ul>
